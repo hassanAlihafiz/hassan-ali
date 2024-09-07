@@ -1,16 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import { Bio } from "../../data/constants";
-import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
-import HeroBgAnimation from "../HeroBgAnimation";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import React from "react";
+import { Tilt } from "react-tilt";
+import styled from "styled-components";
+import Typewriter from "typewriter-effect";
+import { Bio } from "../../data/constants";
+import HeroImg from "../../images/hero.png";
 import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
+import HeroBgAnimation from "../HeroBgAnimation";
 import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Hassan Ali" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

@@ -1,7 +1,7 @@
-import React, { useRef, useState, Suspense } from "react";
+import { PointMaterial, Points, Preload } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
+import React, { Suspense, useRef, useState } from "react";
 import styled from "styled-components";
 
 const StyledCanvasWrapper = styled.div`
